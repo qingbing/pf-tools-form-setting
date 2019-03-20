@@ -27,7 +27,7 @@ class SiteController extends Controller
     public function actionSetting()
     {
         // 获取配置组件
-        $model = FormSetting::cache('mail_config');
+        $model = FormSetting::cache('mail');
         // 获取所有配置的值
         var_dump($model->getAttributes());
         // 获取所有某个配置的值
@@ -37,7 +37,7 @@ class SiteController extends Controller
     public function actionOption()
     {
         // 获取选项组件
-        $model = FormSetting::cache('mail_config');
+        $model = FormSetting::cache('mail');
         // 渲染组件
         $this->render('options', [
             'model' => $model,

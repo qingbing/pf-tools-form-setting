@@ -21,7 +21,7 @@
         "qingbing/php-file-cache": ">=1.0, <2.0",
         "qingbing/php-database": ">=1.0, <2.0",
         "qingbing/php-application": ">=1.0, <2.0",
-        "qingbing/php-form-generator": ">=1.0, <2.0"
+        "qingbing/pf-widgets-form-generator": ">=1.0, <2.0"
     },
     "require-dev": {
         "qingbing/php-helper": ">=1.0, <2.0",
@@ -29,7 +29,7 @@
         "qingbing/php-request": ">=1.0, <2.0",
         "qingbing/php-url-manager": ">=1.0, <2.0",
         "qingbing/php-render": ">=1.0, <2.0",
-        "qingbing/php-error-handler": ">=1.0, <2.0"
+        "qingbing/pf-components-error-handler": ">=1.0, <2.0"
     },
     "autoload": {
         "psr-4": {
